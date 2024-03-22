@@ -70,7 +70,7 @@ Você pode acessar o [código do projeto](CP1.c) ou a [simulação feita no Tink
 -  ``3.`` Testar para ver se está funcionando;
 -  ``4.`` Com tudo montado e pronto, é necessário levá-lo para o ambiente em que será implementado e ligá-lo á uma fonte;
   
-*OBS: Para uma maior eficiência do projeto, é necessário botar o sensor de luz onde tem mais incidência de luz no ambiente.*
+*OBS: Para uma maior eficiência do projeto, é necessário botar o sensor de luminosidade onde há mais incidência de luz no ambiente.*
 
 ## Pessoas Desenvolvedoras do Projeto
 
