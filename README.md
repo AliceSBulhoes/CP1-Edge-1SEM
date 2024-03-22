@@ -3,7 +3,7 @@
 ## Índice
   * [Descrição do Projeto](#descrição-do-projeto)
   * [Acesso ao projeto](#acesso-ao-projeto)
-  * [Ferramentas utilizadas](#ferramentas-utilizadas)
+  * [Ferramentas utilizadas](#ferramenta-utilizadas)
   * [Componentes necessários](#componentes-necessários)
   * [Montagem](#montagem)
   * [Reprodução](#reprodução)
@@ -31,7 +31,7 @@ Por fim, para soar o alarme, ou seja, quando o LED vermelho está aceso, utiliza
 
 Você pode acessar o [código do projeto](CP1.c) ou a [simulação feita no Tinkercad](https://www.tinkercad.com/things/aIxQMSG1Vik-cp1-o-caso-da-vinheira-agnello)
 
-## Ferramentas utilizadas
+## Ferramenta utilizadas
 
 - ``Arduino IDEA``
 
