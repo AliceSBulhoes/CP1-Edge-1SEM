@@ -56,21 +56,21 @@ Você pode acessar o [código do projeto](CP1.c) ou a [simulação feita no Tink
 
 - ``1.`` Conectamos os componentes no Protoboard como mostra a figura abaixo:
 
-![arduino](https://github.com/AliceSBulhoes/CP1-Edge-1SEM/assets/101829188/09ec966c-affc-4331-8b43-93448482f3a6)
+![arduino](https://github.com/AliceSBulhoes/CP1-Edge-1SEM/assets/101829188/f1a9199e-5e93-4e18-a07d-5b6091818208)
 
 - ``2.`` Na hora de conectar os LED’ s e o Buzzer precisamos ter mais cuidado, pois eles têm polaridade. Certificamos de conectá-los corretamente;
    - ``2.1`` O LED possui um terminal maior, que tem polaridade positiva, e o lado do terminal menor tem polaridade negativa. Portanto, conectamos a conexão do Arduino no terminal positivo (Ânodo) e o GND no terminal negativo (Catodo);
    - ``2.2.`` O Buzzer possui uma indicação se o lado é positivo ou negativo;
-- ``3.`` Outro cuidado necessário para a reprodução do projeto foi conectar o LDR, o sensor de luz, como um divisor de tensão, como demonstrado na imagem anterior;
+- ``3.`` Outro cuidado necessário para a reprodução do projeto foi conectar o LDR, o sensor de luz, como um divisor de tensão e conectá-lo ao pin analógico (A0), como demonstrado na imagem anterior;
 
 ## Reprodução
 
-- ``1.`` Após a montagem do projeto, é necessário inserir o código por meio de um computador que possui o programa Arduino IDE;
+- ``1.`` Após a montagem do projeto, é necessário inserir o código por meio de um computador que possui o programa Arduino IDE instalado;
 - ``2.`` Transferir o código do computador para  o Arduino por meio do Cabo USB;
 -  ``3.`` Testar para ver se está funcionando;
 -  ``4.`` Com tudo montado e pronto, é necessário levá-lo para o ambiente em que será implementado e ligá-lo á uma fonte;
   
-*OBS: Para uma maior eficiência do projeto, é necessário botar o sensor de luz voltado para onde no ambiente vem mais luz no ambiente.*
+*OBS: Para uma maior eficiência do projeto, é necessário botar o sensor de luz onde tem mais incidência de luz no ambiente.*
 
 ## Pessoas Desenvolvedoras do Projeto
 
