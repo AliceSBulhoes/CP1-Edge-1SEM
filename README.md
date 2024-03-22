@@ -3,9 +3,11 @@
 ## Índice
   * [Descrição do Projeto](#descrição-do-projeto)
   * [Acesso ao projeto](#acesso-ao-projeto)
-  * [Componentes necessários](#Componentes necessários)
-  * [Montagem e Reprodução](#Montagem e Reprodução)
-  * [Pessoas Desenvolvedoras do Projeto](#Pessoas Desenvolvedoras do Projeto)
+  * [Ferramentas utilizadas](#ferramentas-utilizadas)
+  * [Componentes necessários](#componentes-necessários)
+  * [Montagem](#montagem)
+  * [Reprodução](#reprodução)
+  * [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras-do-projeto)
 
 ## Descrição do projeto
 <p>
@@ -26,9 +28,55 @@ Por fim, para soar o alarme, ou seja, quando o LED vermelho está aceso, utiliza
 </p>
 
 ## Acesso ao projeto
-<p>
-Você pode acessar o [código do projeto]() ou a [simulação feita no Tinkercad[()
-</p>
+
+Você pode acessar o [código do projeto](CP1.c) ou a [simulação feita no Tinkercad](https://www.tinkercad.com/things/aIxQMSG1Vik-cp1-o-caso-da-vinheira-agnello)
+
+## Ferramentas utilizadas
+
+- ``Arduino IDEA``
+
+## Componentes necessários
+
+|   Componente   | Quantidade |
+|:--------------:|:----------:|
+| Arduino Uno R3 |      1     |
+| 220 Ω Resistor |      4     |
+|    LED verde   |      1     |
+|   LED amarelo  |      1     |
+|  LED vermelho  |      1     |
+| Buzzer (Piezo) |      1     |
+|       LDR      |      1     |
+|      Cabo      |     14     |
+|    Cabo USB    |      1     |
+
+*OBS: Caso o Arduino esteja longe da fonte de energia, será necessário um adaptador USB.*
+
+
+## Montagem
+
+- ``1.`` Conectamos os componentes no Protoboard como mostra a figura abaixo:
+
+![arduino](https://github.com/AliceSBulhoes/CP1-Edge-1SEM/assets/101829188/09ec966c-affc-4331-8b43-93448482f3a6)
+
+- ``2.`` Na hora de conectar os LED’ s e o Buzzer precisamos ter mais cuidado, pois eles têm polaridade. Certificamos de conectá-los corretamente;
+   - ``2.1`` O LED possui um terminal maior, que tem polaridade positiva, e o lado do terminal menor tem polaridade negativa. Portanto, conectamos a conexão do Arduino no terminal positivo (Ânodo) e o GND no terminal negativo (Catodo);
+   - ``2.2.`` O Buzzer possui uma indicação se o lado é positivo ou negativo;
+- ``3.`` Outro cuidado necessário para a reprodução do projeto foi conectar o LDR, o sensor de luz, como um divisor de tensão, como demonstrado na imagem anterior;
+
+## Reprodução
+
+- ``1.`` Após a montagem do projeto, é necessário inserir o código por meio de um computador que possui o programa Arduino IDE;
+- ``2.`` Transferir o código do computador para  o Arduino por meio do Cabo USB;
+-  ``3.`` Testar para ver se está funcionando;
+-  ``4.`` Com tudo montado e pronto, é necessário levá-lo para o ambiente em que será implementado e ligá-lo á uma fonte;
+  
+*OBS: Para uma maior eficiência do projeto, é necessário botar o sensor de luz voltado para onde no ambiente vem mais luz no ambiente.*
+
+## Pessoas Desenvolvedoras do Projeto
+
+| [<img src="https://avatars.githubusercontent.com/u/101829188?v=4" width=115><br><sub>Alice Santos Bulhões</sub>](https://github.com/AliceSBulhoes) |  [<img src="" width=115><br><sub>Eduardo Oliveira Cardoso Madid</sub>]() |  [<img src="" width=115><br><sub>Lucas Henzo Ide Yuki</sub>](https://github.com/LucasYuki1) | [<img src="" width=115><br><sub>Nicolas Haubricht Hainfellner</sub>]() |
+| :---: | :---: | :---: | :---: |
+
 
 
 
