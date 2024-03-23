@@ -3,7 +3,7 @@
 ## Índice
   * [Descrição do Projeto](#descrição-do-projeto)
   * [Acesso ao projeto](#acesso-ao-projeto)
-  * [Ferramentas utilizadas](#ferramenta-utilizadas)
+  * [Ferramentas utilizada](#ferramenta-utilizada)
   * [Componentes necessários](#componentes-necessários)
   * [Montagem](#montagem)
   * [Reprodução](#reprodução)
@@ -74,7 +74,7 @@ Você pode acessar o [código do projeto](CP1.c) ou a [simulação feita no Tink
 
 ## Pessoas Desenvolvedoras do Projeto
 
-| [<img src="https://avatars.githubusercontent.com/u/101829188?v=4" width=115><br><sub>Alice Santos Bulhões</sub>](https://github.com/AliceSBulhoes) |  [<img src="" width=115><br><sub>Eduardo Oliveira Cardoso Madid</sub>]() |  [<img src="" width=115><br><sub>Lucas Henzo Ide Yuki</sub>](https://github.com/LucasYuki1) | [<img src="" width=115><br><sub>Nicolas Haubricht Hainfellner</sub>]() |
+| [<img src="https://avatars.githubusercontent.com/u/101829188?v=4" width=115><br><sub>Alice Santos Bulhões</sub>](https://github.com/AliceSBulhoes) |  [<img src="" width=115><br><sub>Eduardo Oliveira Cardoso Madid</sub>]() |  [<img src="" width=115><br><sub>Lucas Henzo Ide Yuki</sub>](https://github.com/LucasYuki1) | [<img src="https://avatars.githubusercontent.com/u/153787379?v=4" width=115><br><sub>Nicolas Haubricht Hainfellner</sub>](https://avatars.githubusercontent.com/u/153787379?v=4) |
 | :---: | :---: | :---: | :---: |
 
 
