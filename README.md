@@ -3,7 +3,7 @@
 ## Índice
   * [Descrição do Projeto](#descrição-do-projeto)
   * [Acesso ao projeto](#acesso-ao-projeto)
-  * [Ferramentas utilizada](#ferramenta-utilizada)
+  * [Ferramenta utilizada](#ferramenta-utilizada)
   * [Componentes necessários](#componentes-necessários)
   * [Montagem](#montagem)
      * [Cuidados durante a montagem](#cuidados-durante-a-montagem)
