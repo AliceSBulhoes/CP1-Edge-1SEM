@@ -26,9 +26,10 @@ void loop(){
   for (int i = 9; i > 0; i--) {
     mediaMovel[i] = mediaMovel[i - 1];
   }
-
+  //Utilizando a função map() para uma maior precisão
   mediaMovel[0] = map(LDR_in, 0, 1023, 0, 100);
-  
+
+  //Calculando a média de luminosidade
   int media = 0;
   for (int i = 0; i < 10; i++) {
     media += mediaMovel[i];
@@ -42,7 +43,7 @@ void loop(){
     digitalWrite(rPin, HIGH);//Led vermelho liga
     digitalWrite(yPin, LOW);//Led amarelo desliga
     digitalWrite(gPin, LOW);//Led verde desliga
-    tone(buzzerPin, 600);//Define o tom do alarme
+    tone(buzzerPin, 1500);//Define o tom do alarme
     delay(3000);//Tempo para o alarme tocar de 3 segundos
     noTone(buzzerPin);
     
@@ -62,7 +63,7 @@ void loop(){
 }
 
 /* 
-				EXPLICAÇÃO DO CÓDIGO
+        EXPLICAÇÃO DO CÓDIGO
  1 - O LDR mede a intensidade da luz e fornece um valor analógico
  (Quanto mais luminosidade, menos resistência e vice-versa)
 
