@@ -2,6 +2,9 @@ int buzzerPin = 8;//Alarme ligado ao pino 8
 int gPin = 7;//Led verde ligada no pino 7
 int yPin = 4;//Led amarela ligada no pino 4
 int rPin = 2;//Led vermelha ligada no pino 2
+int LDR = A0; //LDR ligado ao pino A0
+
+int mediaMovel[10];
 void setup(){
   
 //Define os pinos como saída  
@@ -9,16 +12,33 @@ void setup(){
   pinMode(gPin, OUTPUT);
   pinMode(yPin, OUTPUT);
   pinMode(rPin, OUTPUT);
+//Define os pinos de saída
+  pinMode(LDR, INPUT);
 //Inicia o Serial do Arduino
   Serial.begin(9600);
   
 }
 void loop(){
-  int LDR = analogRead(A0);//Lê o valor do LDR
-  Serial.println(LDR);//Mostra esse valor no Monitor Serial
   
+  int LDR_in = analogRead(LDR);  // Lê o valor do LDR
+
+  // Atualiza a média móvel
+  for (int i = 9; i > 0; i--) {
+    mediaMovel[i] = mediaMovel[i - 1];
+  }
+
+  mediaMovel[0] = map(LDR_in, 0, 1023, 0, 100);
+  
+  int media = 0;
+  for (int i = 0; i < 10; i++) {
+    media += mediaMovel[i];
+  }
+  media /= 10;
+
+  Serial.println(media); // Mostra esse valor no Monitor Serial
+  delay(300);
 //Se o valor do LDR for maior ou igual que 250
-  if(LDR >=250){
+  if(media >=25){
     digitalWrite(rPin, HIGH);//Led vermelho liga
     digitalWrite(yPin, LOW);//Led amarelo desliga
     digitalWrite(gPin, LOW);//Led verde desliga
@@ -27,7 +47,7 @@ void loop(){
     noTone(buzzerPin);
     
 //Se o valor do LDR for maior ou igual que 150 e menor que 250
-  }else if(LDR >= 150 && LDR < 250){
+  }else if(media >= 15 && media < 25){
     digitalWrite(yPin, HIGH);//Led amarela liga
     digitalWrite(rPin, LOW);//Led vermelho desliga
     digitalWrite(gPin, LOW);//Led verde desliga
