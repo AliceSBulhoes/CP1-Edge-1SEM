@@ -1,5 +1,7 @@
 # CP1 - O Caso da Vinheria Agnello: Luminosidade
 
+![L A N E](https://github.com/AliceSBulhoes/CP1-Edge-1SEM/assets/101829188/1b959c8a-ab0e-42d2-b25c-3a0ff23fbad9)
+
 ## Índice
   * [Descrição do Projeto](#descrição-do-projeto)
   * [Acesso ao projeto](#acesso-ao-projeto)
@@ -78,6 +80,7 @@ Você pode acessar o [código do projeto](CP1.c) ou a [simulação feita no Tink
 
 | [<img src="https://avatars.githubusercontent.com/u/101829188?v=4" width=115><br><sub>Alice Santos Bulhões</sub>](https://github.com/AliceSBulhoes) |  [<img src="https://avatars.githubusercontent.com/u/163866552?v=4" width=115><br><sub>Eduardo Oliveira Cardoso Madid</sub>](https://github.com/EduardoMadid) |  [<img src="https://media.licdn.com/dms/image/D5603AQF59776BVSUSg/profile-displayphoto-shrink_800_800/0/1697337839569?e=1717632000&v=beta&t=4spOdaBAcH7gOmyEpgpyF6hk1TM14MvCJ5DI-CNdCsI" width=115><br><sub>Lucas Henzo Ide Yuki</sub>](https://github.com/LucasYuki1) | [<img src="https://avatars.githubusercontent.com/u/153787379?v=4" width=115><br><sub>Nicolas Haubricht Hainfellner</sub>](https://github.com/NicolasHaubricht) |
 | :---: | :---: | :---: | :---: |
+| RM:554499 | RM:556349 | RM:554865 | RM:556259 |
 
 
 
