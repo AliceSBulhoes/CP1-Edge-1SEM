@@ -27,7 +27,7 @@ void loop(){
     mediaMovel[i] = mediaMovel[i - 1];
   }
   //Utilizando a função map() para uma maior precisão
-  mediaMovel[0] = map(LDR_in, 0, 1023, 0, 100);
+  mediaMovel[0] = map(LDR_in, 130, 1010, 0, 100);
 
   //Calculando a média de luminosidade
   int media = 0;
