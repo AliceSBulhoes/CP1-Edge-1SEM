@@ -32,7 +32,7 @@ Por fim, para soar o alarme, ou seja, quando o LED vermelho está aceso, utiliza
 
 ## Acesso ao projeto
 
-Você pode acessar o [código do projeto](CP1.c) ou a [simulação feita no Tinkercad](https://www.tinkercad.com/things/aIxQMSG1Vik-cp1-o-caso-da-vinheira-agnello)
+Você pode acessar o [código do projeto](CP1.cpp) ou a [simulação feita no Tinkercad](https://www.tinkercad.com/things/aIxQMSG1Vik-cp1-o-caso-da-vinheira-agnello)
 
 ## Ferramenta utilizada
 
