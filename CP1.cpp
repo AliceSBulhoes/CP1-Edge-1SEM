@@ -38,8 +38,8 @@ void loop(){
 
   Serial.println(media); // Mostra esse valor no Monitor Serial
   delay(300);
-//Se a média do LDR for maior ou igual que 25
-  if(media >=25){
+//Se a média do LDR for maior ou igual que 40
+  if(media >=75){
     digitalWrite(rPin, HIGH);//Led vermelho liga
     digitalWrite(yPin, LOW);//Led amarelo desliga
     digitalWrite(gPin, LOW);//Led verde desliga
@@ -47,13 +47,13 @@ void loop(){
     delay(3000);//Tempo para o alarme tocar de 3 segundos
     noTone(buzzerPin);
     
-//Se a média do LDR for maior ou igual que 15 e menor que 25
-  }else if(media >= 15 && media < 25){
+//Se a média do LDR for maior ou igual que 40 e menor que 75
+  }else if(media >= 40 && media < 75){
     digitalWrite(yPin, HIGH);//Led amarela liga
     digitalWrite(rPin, LOW);//Led vermelho desliga
     digitalWrite(gPin, LOW);//Led verde desliga
     
-//Se a média do LDR for menor que 15
+//Se a média do LDR for menor que 40
   }else{
     digitalWrite(gPin, HIGH);//Led verde liga
     digitalWrite(yPin, LOW);//Led amarelo desliga
@@ -67,14 +67,14 @@ void loop(){
  1 - O LDR mede a intensidade da luz e fornece um valor analógico
  (Quanto mais luminosidade, menos resistência e vice-versa)
 
- 2 - Se a média for maior ou igual a 25, o led vermelho
+ 2 - Se a média for maior ou igual a 75, o led vermelho
  fica ligado, o led amarelo desligado e o verde desligado,
  enquanto o alarme toca.
   
- 3 - Se a média do LDR estiver entre 15 e 25,
+ 3 - Se a média do LDR estiver entre 40 e 75,
  o LED amarelo acende, e os LEDs vermelho e verde apagam.
   
- 4 - Se a média do LDR for menor que 15, o LED verde acende,
+ 4 - Se a média do LDR for menor que 45, o LED verde acende,
  e os LEDs amarelo e vermelho apagam.
  
 */
