@@ -43,7 +43,8 @@ Você pode acessar o [código do projeto](CP1.c) ou a [simulação feita no Tink
 |   Componente   | Quantidade |
 |:--------------:|:----------:|
 | Arduino Uno R3 |      1     |
-| 220 Ω Resistor |      4     |
+| 220 Ω Resistor |      3     |
+| 10 kΩ Resistor |      1     |
 |    LED verde   |      1     |
 |   LED amarelo  |      1     |
 |  LED vermelho  |      1     |
