@@ -58,8 +58,8 @@ Você pode acessar o [código do projeto](CP1.c) ou a [simulação feita no Tink
 
 ## Montagem
 
+![arduino](https://github.com/AliceSBulhoes/CP1-Edge-1SEM/assets/101829188/4c458e27-43ee-459b-9871-95d994955690)
 
-![arduino](https://github.com/AliceSBulhoes/CP1-Edge-1SEM/assets/101829188/f1a9199e-5e93-4e18-a07d-5b6091818208)
 
 ### Cuidados durante a montagem
 
