@@ -4,7 +4,7 @@ int yPin = 4;//Led amarela ligada no pino 4
 int rPin = 2;//Led vermelha ligada no pino 2
 int LDR = A0; //LDR ligado ao pino A0
 
-int mediaMovel[10];
+int mediaMovel[10]; // Variável para a média móvel
 void setup(){
   
 //Define os pinos como saída  
