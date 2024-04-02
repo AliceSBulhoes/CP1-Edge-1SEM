@@ -27,7 +27,7 @@ void loop(){
     mediaMovel[i] = mediaMovel[i - 1];
   }
   //Utilizando a função map() para uma maior precisão
-  mediaMovel[0] = map(LDR_in, 130, 1010, 0, 100);
+  mediaMovel[0] = map(LDR_in, 38, 1010, 0, 100);
 
   //Calculando a média de luminosidade
   int media = 0;
@@ -74,7 +74,7 @@ void loop(){
  3 - Se a média do LDR estiver entre 40 e 75,
  o LED amarelo acende, e os LEDs vermelho e verde apagam.
   
- 4 - Se a média do LDR for menor que 45, o LED verde acende,
+ 4 - Se a média do LDR for menor que 40, o LED verde acende,
  e os LEDs amarelo e vermelho apagam.
  
 */
