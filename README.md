@@ -36,7 +36,7 @@ Você pode acessar o [código do projeto](CP1.cpp) ou a [simulação feita no Ti
 
 ## Ferramenta utilizada
 
-- ``Arduino IDEA``
+- ``Arduino IDE``
 
 ## Componentes necessários
 
